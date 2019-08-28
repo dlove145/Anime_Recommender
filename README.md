@@ -16,7 +16,7 @@ Recommender Systems are used almost everywhere in daily life. they help us purch
     3. Word2Vec
 
 
-  2. ** Collaborative Based Recommender**
+  2. **Collaborative Based Recommender**
     these recommenders look at a users taste in items and finds users with similar taste. Then recommends a user  items from similar users they haven't rated or purchased.
 
   types include:
@@ -24,7 +24,7 @@ Recommender Systems are used almost everywhere in daily life. they help us purch
     2. user-user based similarity
     3. matrix factorization(PCA, SVG)
 
-  3. ** Popularity Based Recommender**
+  3. **Popularity Based Recommender**
     a simple recommender that recommends the most popular items to a user.
 
   i have chosen to focus on a user-user based Collaborative based recommender, but hope to try out all of these in the future.
@@ -82,7 +82,7 @@ wrote a function to select random user and most similar user. checked similarity
 ![](images/function.png)
 
 
-** find movies user hasn'y seen:**
+**find movies user hasn't seen:**
  i found the movies the user hasn't watched and put them in a dataframe. form here a score would be generated that predict the users rating for the movie and a recommendation would be made, here we can seen the movies are users tastes are similar:
 
  ![](images/similarity.png)
